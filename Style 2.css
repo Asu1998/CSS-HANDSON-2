@@ -1,0 +1,177 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://img.freepik.com/free-vector/hand-drawn-food-background_52683-2954.jpg?w=2000");
+    background-repeat: repeat;
+    background-size: 100%;
+    border: ridge greenyellow;
+    border-style: inset;
+    border-width: 5px;
+    background-position: fixed;
+}
+.box1{
+    border: 5px solid red;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: x-large;
+    border-radius: 35px;
+    margin-top: 10px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 30px;
+    width: 320px;
+    height: 60px;
+    padding: 20px 10px 30px 30px;
+   
+}
+.box2{
+    border: 5px solid red;
+    background-color: black;
+    color: white;
+    font-style: oblique;
+    font-weight: bolder; 
+    font-size: large;
+    border-radius: 35px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 280px;
+    height: 50px;
+    width: 350px;
+    top: 30px;
+    padding: 30px 0px 1px 20px;
+}
+.box3{
+    margin-left: 65%;
+    border: 5px solid red;
+    background-color: black;
+    color: white;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: 10px;
+    height: 150px;
+    width: 400px;
+    border-radius: 35px;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+}
+.main{
+    display: block;
+    position: relative;
+
+}
+.circle{
+    width: 350px;
+    height: 250px;
+    color: black;
+    border-style:solid grey;
+    border-width:7px;
+    background-color:rgb(51, 193, 51);
+    border-radius:50%;
+    margin-left: 120px;
+    margin-top: 300px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    font-style: oblique;
+    text-decoration: underline;
+    position: relative;
+    padding-top: 30px;
+}
+.form{
+    text-align: center;
+    border-style:dashed;
+    border-width: 6px;
+    border-color: red;
+    width:350px;
+    height: 650px;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.852);
+    top:50%;
+    right:20%;
+}
+.menu{
+    width: 600px;
+    height: 12vh;
+    background-color:black;
+    border:5px solid red ;
+    border-radius: 60px;
+    position: absolute;
+    top: 169%;
+    right: 30%;
+    color: white;
+    text-align: center;
+    font-style: oblique;
+    font-size: x-large;
+    font-weight: bolder;
+}
+#flex{
+    width: 100%;
+    height: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.h1{
+    height: 3px;
+    border: none;
+    background-color: black;
+    margin-top: 39%;  
+}
+
+.food{
+    border: 5px solid green;
+    height: 260px;
+    width: 350px;
+    margin: 5px;
+    color: rgb(104, 104, 255);
+    background-color: rgb(115, 215, 255);
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+#flex1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium ;
+    text-align: center;
+    font-weight: bolder;
+}
+.head{
+    color: navy;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subhead{
+    height: 1.5px;
+    border: none;
+    background-color: red;
+    width: 100%;
+
+}
+#last{
+    height: 300px;
+    width: 350px;
+}
+.sub{
+    height: 2px;
+    border: none;
+    background-color: red;
+    width: 100%;
+}
